@@ -1,0 +1,106 @@
+aid: apptronik
+name: Apptronik
+description: >-
+  Apptronik is an Austin, Texas-based humanoid robotics company founded in
+  2016 as a spinout from the Human Centered Robotics Lab at the University of
+  Texas at Austin. Co-founded by Jeff Cardenas (CEO), Dr. Nick Paine (CTO),
+  and Dr. Luis Sentis (scientific advisor), the company designs and
+  manufactures Apollo, a general-purpose humanoid robot standing 5'8", weighing
+  160 lbs, capable of lifting 55 lbs, and running for roughly 4 hours on a
+  swappable battery. Apollo targets warehouse, manufacturing, and logistics
+  applications including trailer unloading, case picking, palletization,
+  machine tending, and workcell delivery. Apptronik has commercial pilot
+  programs and partnerships with Mercedes-Benz (automotive manufacturing
+  logistics), GXO Logistics (multi-phase R&D in U.S. distribution centers),
+  Jabil (supply-chain partner helping scale production and an internal Apollo
+  deployment), and Google DeepMind (Apollo integrates Gemini Robotics
+  vision-language-action models). The company previously built NASA's Valkyrie
+  humanoid and ten-plus other research robots. As of February 2026 Apptronik
+  had raised more than $935M (including a $520M Series A-X extension) at a
+  reported $5B valuation, with investors including B Capital, Google, and
+  Mercedes-Benz. The company sells/leases Apollo to enterprise customers via a
+  direct contact-sales motion and ships a proprietary "point-and-click"
+  control suite for deploying solutions; there is no public developer portal,
+  no published REST/AsyncAPI/gRPC API, no public SDK, no open-source release,
+  and no public GitHub repositories under the `apptronik` org.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/apptronik/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+tags:
+  - Robotics
+  - Humanoid Robots
+  - General-Purpose Robots
+  - Embodied AI
+  - Vision Language Action
+  - Foundation Models
+  - Apollo
+  - Manufacturing
+  - Logistics
+  - Warehouse Automation
+  - Hardware
+  - Austin
+apis: []
+common:
+  - type: Website
+    url: https://apptronik.com
+  - type: Product
+    url: https://apptronik.com/apollo
+  - type: AboutUs
+    url: https://apptronik.com/about-us
+  - type: Leadership
+    url: https://apptronik.com/leadership
+  - type: News
+    url: https://apptronik.com/news2
+  - type: Videos
+    url: https://apptronik.com/videos
+  - type: Careers
+    url: https://apptronik.com/careers
+  - type: ContactUs
+    url: https://apptronik.com/contact-us
+  - type: GitHubOrganization
+    url: https://github.com/apptronik
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/apptronik-inc.
+  - type: Twitter
+    url: https://twitter.com/apptronik
+  - type: YouTube
+    url: https://www.youtube.com/@Apptronik
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+x-type: company
+x-tier: 3
+x-tier-reason: no-apis
+x-public-apis: false
+x-developer-portal: false
+x-openapi: false
+x-asyncapi: false
+x-sdk: false
+x-cli: false
+x-status-page: false
+x-rss: false
+x-github-org-public-repos: 0
+x-partnerships:
+  - Mercedes-Benz
+  - GXO Logistics
+  - Jabil
+  - Google DeepMind
+  - NASA (Valkyrie heritage)
+x-ai-models:
+  - Google DeepMind Gemini Robotics (Vision-Language-Action)
+x-research-notes: >-
+  As of 2026-05, Apptronik's website (apptronik.com), product pages
+  (apptronik.com/apollo, apptronik.com/product-page), leadership page, and
+  news section contain no developer portal, no public API reference, no
+  OpenAPI/AsyncAPI/gRPC specs, no SDKs, no CLI, no status page, and no
+  engineering blog. The github.com/apptronik organization exists (user id
+  126704593) but exposes zero public repositories, packages, or starred
+  projects. Apollo ships with a proprietary "point-and-click" control suite
+  for warehouse and manufacturing customers, sold via direct enterprise sales,
+  and integrates Google DeepMind's Gemini Robotics VLA models on-device.
+  Apollo's software interfaces are not exposed to public third-party
+  developers. No artifacts (openapi/, asyncapi/, json-schema/, capabilities/,
+  examples/, rules/, plans/, rate-limits/, finops/) were generated for this
+  repository because there is no public API surface to back them.
