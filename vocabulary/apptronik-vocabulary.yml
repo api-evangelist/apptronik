@@ -1,0 +1,140 @@
+vocabulary:
+  name: Apptronik Industrial Robotics Vocabulary
+  description: >-
+    Key concepts and terminology used in the domain of humanoid robotics,
+    embodied AI, and industrial automation as exemplified by Apptronik's
+    Apollo platform and its target deployment environments.
+  version: "1.0.0"
+  terms:
+    - term: Humanoid Robot
+      definition: >-
+        A robot with a body structure that approximates the human form,
+        typically including a torso, two arms, two legs, and a head. Humanoid
+        robots are designed to operate in environments built for humans and to
+        perform tasks that humans currently do.
+      tags:
+        - robotics
+        - hardware
+        - embodied-ai
+
+    - term: Apollo
+      definition: >-
+        Apptronik's general-purpose humanoid robot, standing 5'8" and weighing
+        160 lbs, capable of lifting 55 lbs and operating for approximately
+        4 hours on a swappable battery. Apollo targets warehouse, manufacturing,
+        and logistics applications.
+      tags:
+        - product
+        - humanoid-robot
+        - apptronik
+
+    - term: Vision-Language-Action (VLA) Model
+      definition: >-
+        A foundation model architecture that combines visual perception,
+        natural-language understanding, and motor action generation, allowing
+        a robot to receive high-level instructions and translate them into
+        physical manipulation sequences. Apollo integrates Google DeepMind's
+        Gemini Robotics VLA models.
+      tags:
+        - ai
+        - foundation-model
+        - embodied-ai
+        - perception
+
+    - term: Workcell
+      definition: >-
+        A defined physical area within a manufacturing or warehouse facility
+        where a robot or group of robots performs a specific set of tasks,
+        such as palletization, machine tending, or case picking. Workcells
+        are the primary deployment unit for Apollo in enterprise settings.
+      tags:
+        - manufacturing
+        - deployment
+        - logistics
+
+    - term: Payload
+      definition: >-
+        The maximum load a robot can carry or manipulate during operation.
+        Apollo's rated payload is 55 lbs (approximately 25 kg). Payload
+        determines the range of tasks a humanoid robot can physically perform.
+      tags:
+        - hardware
+        - specification
+        - robotics
+
+    - term: Swappable Battery
+      definition: >-
+        A battery pack designed for rapid field replacement without powering
+        down associated systems. Apollo uses swappable batteries to achieve
+        near-continuous operation, a key requirement for high-throughput
+        warehouse and manufacturing environments.
+      tags:
+        - hardware
+        - power
+        - operations
+
+    - term: Point-and-Click Control Suite
+      definition: >-
+        Apptronik's proprietary software interface for configuring and
+        deploying Apollo in enterprise environments. It abstracts low-level
+        robot programming into a visual, task-oriented workflow, enabling
+        non-specialist operators to set up and monitor robotic operations.
+      tags:
+        - software
+        - control
+        - deployment
+        - enterprise
+
+    - term: Trailer Unloading
+      definition: >-
+        A logistics task involving the removal of cargo (boxes, cases, pallets)
+        from a shipping trailer. It is one of the primary use cases for Apollo
+        in distribution center environments due to its physically demanding and
+        repetitive nature.
+      tags:
+        - logistics
+        - warehouse
+        - use-case
+
+    - term: Machine Tending
+      definition: >-
+        A manufacturing task in which a robot loads and unloads parts from
+        CNC machines, injection molding equipment, or other automated production
+        machinery. Apollo performs machine tending as part of its manufacturing
+        application portfolio.
+      tags:
+        - manufacturing
+        - use-case
+        - automation
+
+    - term: Palletization
+      definition: >-
+        The process of stacking and arranging goods on a pallet for storage or
+        transport. Palletization is a high-frequency, physically demanding task
+        in warehouse and distribution settings targeted by Apollo deployments.
+      tags:
+        - logistics
+        - warehouse
+        - use-case
+
+    - term: Embodied AI
+      definition: >-
+        Artificial intelligence that is situated in and acts through a physical
+        body in the real world. Embodied AI systems, such as Apollo, learn from
+        and interact with their physical environment rather than operating
+        purely in the digital domain.
+      tags:
+        - ai
+        - robotics
+        - research
+
+    - term: Autonomy Level
+      definition: >-
+        A measure of how independently a robot can perform tasks without human
+        supervision or intervention. Ranges from teleoperation (fully human-
+        controlled) to full autonomy (no human in the loop). Apollo's commercial
+        deployments target semi-autonomous and fully autonomous operating modes.
+      tags:
+        - robotics
+        - ai
+        - specification

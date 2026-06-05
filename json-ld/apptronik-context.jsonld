@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "robot": "https://apptronik.com/vocab#",
+    "mfg": "https://www.gs1.org/voc/",
+
+    "Apptronik": {
+      "@id": "schema:Organization",
+      "@context": {
+        "name": "schema:name",
+        "url": "schema:url",
+        "foundingDate": "schema:foundingDate",
+        "location": "schema:location",
+        "industry": "schema:industry",
+        "description": "schema:description",
+        "sameAs": "schema:sameAs"
+      }
+    },
+
+    "HumanoidRobot": {
+      "@id": "robot:HumanoidRobot",
+      "@context": {
+        "modelName": "schema:name",
+        "height": "schema:height",
+        "weight": "schema:weight",
+        "payload": "robot:payload",
+        "batteryLife": "robot:batteryLife",
+        "autonomyLevel": "robot:autonomyLevel",
+        "locomotionType": "robot:locomotionType"
+      }
+    },
+
+    "Apollo": {
+      "@id": "robot:Apollo",
+      "@type": "robot:HumanoidRobot",
+      "@context": {
+        "deploymentEnvironment": "robot:deploymentEnvironment",
+        "controlSuite": "robot:controlSuite",
+        "aiModel": "robot:aiModel",
+        "useCase": "robot:useCase"
+      }
+    },
+
+    "RoboticWorkflow": {
+      "@id": "robot:RoboticWorkflow",
+      "@context": {
+        "task": "robot:task",
+        "workcell": "robot:workcell",
+        "throughput": "robot:throughput",
+        "cycleTime": "robot:cycleTime"
+      }
+    },
+
+    "ManufacturingApplication": {
+      "@id": "mfg:ManufacturingApplication",
+      "@context": {
+        "process": "mfg:process",
+        "facility": "schema:Place",
+        "operator": "schema:Person",
+        "automationLevel": "mfg:automationLevel"
+      }
+    },
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "image": "schema:image",
+    "industry": "schema:industry",
+    "foundingDate": "schema:foundingDate",
+    "location": "schema:location",
+    "partner": "schema:partner",
+    "product": "schema:product",
+    "technology": "schema:technology"
+  }
+}
