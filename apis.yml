@@ -43,6 +43,8 @@ tags:
   - Austin
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/apptronik-domain-security.yml
   - type: Website
     url: https://apptronik.com
   - type: Product
