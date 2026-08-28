@@ -23,6 +23,17 @@ description: >-
   control suite for deploying solutions; there is no public developer portal,
   no published REST/AsyncAPI/gRPC API, no public SDK, no open-source release,
   and no public GitHub repositories under the `apptronik` org.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
