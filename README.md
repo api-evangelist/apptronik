@@ -1,4 +1,4 @@
-# apptronik
+# Apptronik
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Apptronik — Austin, Texas humanoid robotics company building Apollo, a general-purpose humanoid robot for warehouse, manufacturing, and logistics deployment. Partnered with Mercedes-Benz, GXO Logistics, Jabil, and Google DeepMind (Gemini Robotics VLA). Spun out of the UT Austin Human Centered Robotics Lab in 2016; previously built NASA's Valkyrie. No public developer API, SDK, or open-source surface as of May 2026 — profiled as Tier-3 (`no-apis`).
+Apptronik is an Austin, Texas-based humanoid robotics company founded in 2016 as a spinout from the Human Centered Robotics Lab at the University of Texas at Austin. Co-founded by Jeff Cardenas (CEO), Dr. Nick Paine (CTO), and Dr. Luis Sentis (scientific advisor), the company designs and manufactures Apollo, a general-purpose humanoid robot standing 5'8", weighing 160 lbs, capable of lifting 55 lbs, and running for roughly 4 hours on a swappable battery. Apollo targets warehouse, manufacturing, and logistics applications including trailer unloading, case picking, palletization, machine tending, and workcell delivery. Apptronik has commercial pilot programs and partnerships with Mercedes-Benz (automotive manufacturing logistics), GXO Logistics (multi-phase R&D in U.S. distribution centers), Jabil (supply-chain partner helping scale production and an internal Apollo deployment), and Google DeepMind (Apollo integrates Gemini Robotics vision-language-action models). The company previously built NASA's Valkyrie humanoid and ten-plus other research robots. As of February 2026 Apptronik had raised more than $935M (including a $520M Series A-X extension) at a reported $5B valuation, with investors including B Capital, Google, and Mercedes-Benz. The company sells/leases Apollo to enterprise customers via a direct contact-sales motion and ships a proprietary "point-and-click" control suite for deploying solutions; there is no public developer portal, no published REST/AsyncAPI/gRPC API, no public SDK, no open-source release, and no public GitHub repositories under the `apptronik` org.
+
+**Areas:** Robotics · Humanoid Robots · General-Purpose Robots · Embodied AI · Vision Language Action · Foundation Models · Apollo · Manufacturing · Logistics · Warehouse Automation · Hardware · Austin
+
+## Apptronik on APIs.io
+
+Everything profiled for Apptronik is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apptronik/](https://apis.io/providers/apptronik/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Apptronik Context](https://apis.io/jsonld/apptronik/apptronik-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Apptronik Industrial Robotics Vocabulary](https://apis.io/vocabularies/apptronik/apptronik-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Apptronik Domain Security](https://apis.io/security/apptronik/apptronik-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://apptronik.com)
+- [GitHub](https://github.com/apptronik)
+
+## API Evangelist rating
+
+**Kin Score 6.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 50.0 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apptronik/](https://apis.io/providers/apptronik/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apptronik: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apptronik/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
